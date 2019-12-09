@@ -45,6 +45,11 @@ namespace DsAAlgo.UI
             {
                 Console.WriteLine(item);
             }
+
+            var stc = new PostFixCalculatorUsingAStack();
+
+            string[] arg = new string[] { "5", "6", "7", "*", "+", "1", "-" };
+            stc.GetPostfixedAnswer(arg);
         }
     }
 }
